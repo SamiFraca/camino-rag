@@ -1,0 +1,18 @@
+[
+  {
+    "route": "Camino Francés",
+    "stage": "Sarria → Portomarín",
+    "distance_km": 22,
+    "difficulty": "easy",
+    "elevation_gain": 300,
+    "text": "A popular and relatively easy stage starting in Sarria. Good facilities and moderate terrain."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "Portomarín → Palas de Rei",
+    "distance_km": 25,
+    "difficulty": "medium",
+    "elevation_gain": 400,
+    "text": "A longer stage with rolling hills. Some climbs but manageable for most pilgrims."
+  }
+]
