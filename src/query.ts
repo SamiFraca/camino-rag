@@ -1,4 +1,5 @@
 import { createIndex, StageConstraints } from "./rag.js";
+import { searchStages } from "./keywords.js";
 import fs from "fs";
 
 interface Stage {
@@ -163,12 +164,19 @@ export async function askCamino(question: string, maxRetries: number = 3): Promi
       similarityTopK: 5
     });
 
+    // Find relevant stages using keyword search
+    const relevantStages = searchStages(question, 5);
+    const stageHints = relevantStages.map(s => `- ${s.stage.route}: ${s.stage.from} → ${s.stage.to} (${s.stage.distance_km}km, ${s.stage.difficulty})`).join("\n");
+
     const retryHint = attempt > 0 
       ? `\n\nPREVIOUS ATTEMPT FAILED:\n${lastErrors.join("\n")}\n\nPlease fix these issues and try again.` 
       : "";
 
     const prompt = `
 You are a Camino de Santiago planner.
+
+RELEVANT STAGES FOR THIS QUERY:
+${stageHints}
 
 STRICT RULES:
 - Use ONLY exact stage names from the provided data

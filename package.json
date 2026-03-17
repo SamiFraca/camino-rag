@@ -14,7 +14,7 @@
     "@llamaindex/openai": "latest",
     "dotenv": "^17.3.1",
     "llamaindex": "^0.12.1",
-    "openai": "^6.31.0"
+    "openai": "^6.31.0",
+    "wink-bm25-text-search": "^3.1.2"
   }
 }
- 
