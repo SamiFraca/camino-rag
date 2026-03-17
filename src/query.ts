@@ -18,7 +18,7 @@ export async function askCamino(question: string, days: number = 4, level: strin
 
   const startPoint = getStartPoint(days, level);
 
-  const index = await createIndex(constraints);
+  const index = await createIndex(constraints, startPoint, days);
 
   const queryEngine = index.asQueryEngine({
     similarityTopK: 5

@@ -23,11 +23,29 @@ function filterStages(stages: any[], constraints: StageConstraints): any[] {
   });
 }
 
-export async function createIndex(constraints?: StageConstraints) {
+export async function createIndex(constraints?: StageConstraints, startFrom?: string, numStages?: number) {
   const raw = fs.readFileSync("data/stages.json", "utf-8");
   const stages = JSON.parse(raw);
 
-  const filteredStages = constraints ? filterStages(stages, constraints) : stages;
+  let filteredStages = constraints ? filterStages(stages, constraints) : stages;
+
+  // Sort by route and stage_number for proper ordering
+  filteredStages.sort((a: any, b: any) => {
+    if (a.route !== b.route) return a.route.localeCompare(b.route);
+    return a.stage_number - b.stage_number;
+  });
+
+  // If startFrom is specified, find consecutive stages from that point
+  if (startFrom && numStages) {
+    const startStageIndex = filteredStages.findIndex((s: any) => s.from === startFrom);
+    if (startStageIndex >= 0) {
+      // Get consecutive stages starting from the found stage
+      const routeName = filteredStages[startStageIndex].route;
+      const routeStages = filteredStages.filter((s: any) => s.route === routeName);
+      const routeStartIndex = routeStages.findIndex((s: any) => s.from === startFrom);
+      filteredStages = routeStages.slice(routeStartIndex, routeStartIndex + numStages);
+    }
+  }
 
   const documents = filteredStages.map((stage: any) => {
     return new Document({

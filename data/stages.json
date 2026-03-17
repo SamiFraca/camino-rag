@@ -2,6 +2,9 @@
   {
     "route": "Camino Francés",
     "stage": "Sarria → Portomarín",
+    "stage_number": 1,
+    "from": "Sarria",
+    "to": "Portomarín",
     "distance_km": 22,
     "difficulty": "easy",
     "elevation_gain": 300,
@@ -10,6 +13,9 @@
   {
     "route": "Camino Francés",
     "stage": "Portomarín → Palas de Rei",
+    "stage_number": 2,
+    "from": "Portomarín",
+    "to": "Palas de Rei",
     "distance_km": 25,
     "difficulty": "medium",
     "elevation_gain": 400,
@@ -18,6 +24,9 @@
   {
     "route": "Camino Francés",
     "stage": "Palas de Rei → Arzúa",
+    "stage_number": 3,
+    "from": "Palas de Rei",
+    "to": "Arzúa",
     "distance_km": 29,
     "difficulty": "medium",
     "elevation_gain": 350,
@@ -26,6 +35,9 @@
   {
     "route": "Camino Francés",
     "stage": "Arzúa → O Pedrouzo",
+    "stage_number": 4,
+    "from": "Arzúa",
+    "to": "O Pedrouzo",
     "distance_km": 19,
     "difficulty": "easy",
     "elevation_gain": 250,
@@ -34,6 +46,9 @@
   {
     "route": "Camino Francés",
     "stage": "O Pedrouzo → Santiago de Compostela",
+    "stage_number": 5,
+    "from": "O Pedrouzo",
+    "to": "Santiago de Compostela",
     "distance_km": 20,
     "difficulty": "easy",
     "elevation_gain": 200,
@@ -42,6 +57,9 @@
   {
     "route": "Camino Francés",
     "stage": "Saint-Jean-Pied-de-Port → Roncesvalles",
+    "stage_number": 1,
+    "from": "Saint-Jean-Pied-de-Port",
+    "to": "Roncesvalles",
     "distance_km": 25,
     "difficulty": "hard",
     "elevation_gain": 1300,
@@ -50,6 +68,9 @@
   {
     "route": "Camino Francés",
     "stage": "Pamplona → Puente la Reina",
+    "stage_number": 2,
+    "from": "Pamplona",
+    "to": "Puente la Reina",
     "distance_km": 24,
     "difficulty": "medium",
     "elevation_gain": 400,
@@ -58,6 +79,9 @@
   {
     "route": "Camino Francés",
     "stage": "Burgos → Hornillos del Camino",
+    "stage_number": 3,
+    "from": "Burgos",
+    "to": "Hornillos del Camino",
     "distance_km": 21,
     "difficulty": "easy",
     "elevation_gain": 250,
@@ -66,6 +90,9 @@
   {
     "route": "Camino Francés",
     "stage": "León → Astorga",
+    "stage_number": 4,
+    "from": "León",
+    "to": "Astorga",
     "distance_km": 32,
     "difficulty": "medium",
     "elevation_gain": 350,
@@ -74,6 +101,9 @@
   {
     "route": "Camino Francés",
     "stage": "Astorga → Ponferrada",
+    "stage_number": 5,
+    "from": "Astorga",
+    "to": "Ponferrada",
     "distance_km": 25,
     "difficulty": "hard",
     "elevation_gain": 600,
@@ -82,6 +112,9 @@
   {
     "route": "Camino Francés",
     "stage": "Ponferrada → Villafranca del Bierzo",
+    "stage_number": 6,
+    "from": "Ponferrada",
+    "to": "Villafranca del Bierzo",
     "distance_km": 25,
     "difficulty": "easy",
     "elevation_gain": 300,
@@ -90,6 +123,9 @@
   {
     "route": "Camino Francés",
     "stage": "Villafranca del Bierzo → O Cebreiro",
+    "stage_number": 7,
+    "from": "Villafranca del Bierzo",
+    "to": "O Cebreiro",
     "distance_km": 28,
     "difficulty": "hard",
     "elevation_gain": 900,
@@ -98,6 +134,9 @@
   {
     "route": "Camino del Norte",
     "stage": "Irún → San Sebastián",
+    "stage_number": 1,
+    "from": "Irún",
+    "to": "San Sebastián",
     "distance_km": 25,
     "difficulty": "hard",
     "elevation_gain": 450,
@@ -106,6 +145,9 @@
   {
     "route": "Camino del Norte",
     "stage": "San Sebastián → Zarautz",
+    "stage_number": 2,
+    "from": "San Sebastián",
+    "to": "Zarautz",
     "distance_km": 22,
     "difficulty": "medium",
     "elevation_gain": 300,
@@ -114,6 +156,9 @@
   {
     "route": "Camino del Norte",
     "stage": "Zarautz → Deba",
+    "stage_number": 3,
+    "from": "Zarautz",
+    "to": "Deba",
     "distance_km": 26,
     "difficulty": "medium",
     "elevation_gain": 400,
@@ -122,6 +167,9 @@
   {
     "route": "Camino del Norte",
     "stage": "Deba → Markina",
+    "stage_number": 4,
+    "from": "Deba",
+    "to": "Markina",
     "distance_km": 24,
     "difficulty": "hard",
     "elevation_gain": 700,
@@ -130,6 +178,9 @@
   {
     "route": "Camino del Norte",
     "stage": "Markina → Gernika",
+    "stage_number": 5,
+    "from": "Markina",
+    "to": "Gernika",
     "distance_km": 25,
     "difficulty": "medium",
     "elevation_gain": 350,
@@ -138,6 +189,9 @@
   {
     "route": "Camino del Norte",
     "stage": "Gernika → Bilbao",
+    "stage_number": 6,
+    "from": "Gernika",
+    "to": "Bilbao",
     "distance_km": 32,
     "difficulty": "medium",
     "elevation_gain": 400,
@@ -146,6 +200,9 @@
   {
     "route": "Camino del Norte",
     "stage": "Bilbao → Portugalete",
+    "stage_number": 7,
+    "from": "Bilbao",
+    "to": "Portugalete",
     "distance_km": 15,
     "difficulty": "easy",
     "elevation_gain": 100,
@@ -154,6 +211,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Porto → Vilar do Pinheiro",
+    "stage_number": 1,
+    "from": "Porto",
+    "to": "Vilar do Pinheiro",
     "distance_km": 20,
     "difficulty": "easy",
     "elevation_gain": 200,
@@ -162,6 +222,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Vilar do Pinheiro → Rates",
+    "stage_number": 2,
+    "from": "Vilar do Pinheiro",
+    "to": "Rates",
     "distance_km": 22,
     "difficulty": "easy",
     "elevation_gain": 250,
@@ -170,6 +233,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Rates → Barcelos",
+    "stage_number": 3,
+    "from": "Rates",
+    "to": "Barcelos",
     "distance_km": 24,
     "difficulty": "easy",
     "elevation_gain": 300,
@@ -178,6 +244,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Barcelos → Ponte de Lima",
+    "stage_number": 4,
+    "from": "Barcelos",
+    "to": "Ponte de Lima",
     "distance_km": 35,
     "difficulty": "medium",
     "elevation_gain": 500,
@@ -186,6 +255,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Ponte de Lima → Valença",
+    "stage_number": 5,
+    "from": "Ponte de Lima",
+    "to": "Valença",
     "distance_km": 32,
     "difficulty": "hard",
     "elevation_gain": 800,
@@ -194,6 +266,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Valença → Tui",
+    "stage_number": 6,
+    "from": "Valença",
+    "to": "Tui",
     "distance_km": 5,
     "difficulty": "easy",
     "elevation_gain": 50,
@@ -202,6 +277,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Tui → Redondela",
+    "stage_number": 7,
+    "from": "Tui",
+    "to": "Redondela",
     "distance_km": 19,
     "difficulty": "medium",
     "elevation_gain": 400,
@@ -210,6 +288,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Redondela → Pontevedra",
+    "stage_number": 8,
+    "from": "Redondela",
+    "to": "Pontevedra",
     "distance_km": 18,
     "difficulty": "easy",
     "elevation_gain": 300,
@@ -218,6 +299,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Pontevedra → Caldas de Reis",
+    "stage_number": 9,
+    "from": "Pontevedra",
+    "to": "Caldas de Reis",
     "distance_km": 22,
     "difficulty": "easy",
     "elevation_gain": 200,
@@ -226,6 +310,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Caldas de Reis → Padrón",
+    "stage_number": 10,
+    "from": "Caldas de Reis",
+    "to": "Padrón",
     "distance_km": 18,
     "difficulty": "easy",
     "elevation_gain": 250,
@@ -234,6 +321,9 @@
   {
     "route": "Camino Portugués",
     "stage": "Padrón → Santiago de Compostela",
+    "stage_number": 11,
+    "from": "Padrón",
+    "to": "Santiago de Compostela",
     "distance_km": 24,
     "difficulty": "medium",
     "elevation_gain": 400,
