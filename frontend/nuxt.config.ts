@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-01-01',
   vite: {
     optimizeDeps: {
-      include: ['llamaindex', '@llamaindex/openai', 'openai', 'wink-bm25-text-search']
+      exclude: ['three', '@tresjs/core']
     }
   }
 })
