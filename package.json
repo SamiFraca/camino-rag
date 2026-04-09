@@ -20,5 +20,8 @@
   },
   "devDependencies": {
     "tsx": "^4.21.0"
+  },
+  "overrides": {
+    "@llamaindex/env": "0.1.31"
   }
 }

@@ -1,4 +1,5 @@
-import { createIndex, StageConstraints } from "./rag.js";
+import { createIndex } from "./rag.js";
+import type { StageConstraints } from "./rag.js";
 import { searchStages } from "./keywords.js";
 import fs from "fs";
 
