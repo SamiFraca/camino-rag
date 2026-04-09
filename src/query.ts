@@ -61,7 +61,7 @@ function parsePlan(response: string): ParsedPlan | null {
 }
 
 function loadAllStages(): Stage[] {
-  const raw = fs.readFileSync("data/stages.json", "utf-8");
+  const raw = fs.readFileSync("../data/stages.json", "utf-8");
   return JSON.parse(raw);
 }
 

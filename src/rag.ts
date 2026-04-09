@@ -24,7 +24,7 @@ function filterStages(stages: any[], constraints: StageConstraints): any[] {
 }
 
 export async function createIndex(constraints: StageConstraints) {
-  const raw = fs.readFileSync("data/stages.json", "utf-8");
+  const raw = fs.readFileSync("../data/stages.json", "utf-8");
   const allStages = JSON.parse(raw);
 
   let filteredStages = filterStages(allStages, constraints);

@@ -5,9 +5,9 @@
         <span class="pilgrim-icon">🚶</span>
         <span>Camino Guide</span>
       </div>
-      <ClientOnly>
+      <!-- <ClientOnly>
         <CaminoCharacter :is-talking="isTalking" />
-      </ClientOnly>
+      </ClientOnly> -->
       <div class="status-badge" :class="{ talking: isTalking }">
         {{ isTalking ? 'Planning your route...' : 'Ready to guide you' }}
       </div>

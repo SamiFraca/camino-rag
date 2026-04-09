@@ -4,7 +4,7 @@ import fs from "fs";
 let keywordIndex: { engine: any; stages: any[] } | null = null;
 
 export function buildKeywordIndex() {
-  const raw = fs.readFileSync("data/stages.json", "utf-8");
+  const raw = fs.readFileSync("../data/stages.json", "utf-8");
   const stages = JSON.parse(raw);
 
   const engine = BM25();
