@@ -1,61 +1,6 @@
 [
   {
     "route": "Camino Francés",
-    "stage": "Sarria → Portomarín",
-    "stage_number": 1,
-    "from": "Sarria",
-    "to": "Portomarín",
-    "distance_km": 22,
-    "difficulty": "easy",
-    "elevation_gain": 300,
-    "text": "A gentle introduction to the Camino. The route passes through woodland and farmland, crossing the Minho River via the ancient Roman bridge at Portomarín. Good pilgrim infrastructure with albergues in towns like Barbadelo and Ferreiros."
-  },
-  {
-    "route": "Camino Francés",
-    "stage": "Portomarín → Palas de Rei",
-    "stage_number": 2,
-    "from": "Portomarín",
-    "to": "Palas de Rei",
-    "distance_km": 25,
-    "difficulty": "medium",
-    "elevation_gain": 400,
-    "text": "Climbs steadily through oak forests and rural Galicia. The ascent to Monte San Antonio offers panoramic views. Descends to the town of Gonzar before climbing again through woodland to the agricultural center of Palas de Rei, historically a royal resting place."
-  },
-  {
-    "route": "Camino Francés",
-    "stage": "Palas de Rei → Arzúa",
-    "stage_number": 3,
-    "from": "Palas de Rei",
-    "to": "Arzúa",
-    "distance_km": 29,
-    "difficulty": "medium",
-    "elevation_gain": 350,
-    "text": "A long stage crossing the province of A Coruña. Passes through the hamlet of Furelos with its medieval bridge, then Melide where the Camino del Norte joins. The route flattens somewhat after Melide, entering dairy country with green pastures en route to Arzúa, known for its cheese."
-  },
-  {
-    "route": "Camino Francés",
-    "stage": "Arzúa → O Pedrouzo",
-    "stage_number": 4,
-    "from": "Arzúa",
-    "to": "O Pedrouzo",
-    "distance_km": 19,
-    "difficulty": "easy",
-    "elevation_gain": 250,
-    "text": "A shorter, manageable stage through eucalyptus groves and rolling farmland. The Camino Primitivo joins at Arzúa, increasing pilgrim traffic. Gentle ascents and descents through small villages like Santa Irene, with its chapel and fountain said to have healing waters."
-  },
-  {
-    "route": "Camino Francés",
-    "stage": "O Pedrouzo → Santiago de Compostela",
-    "stage_number": 5,
-    "from": "O Pedrouzo",
-    "to": "Santiago de Compostela",
-    "distance_km": 20,
-    "difficulty": "easy",
-    "elevation_gain": 200,
-    "text": "The final stage to the cathedral. Passes through Lavacolla where medieval pilgrims washed before entering the city. Climbs Monte do Gozo (Mount of Joy) for the first sight of Santiago's spires. Descends through the suburbs to reach Praza do Obradoiro and the Cathedral of Saint James."
-  },
-  {
-    "route": "Camino Francés",
     "stage": "Saint-Jean-Pied-de-Port → Roncesvalles",
     "stage_number": 1,
     "from": "Saint-Jean-Pied-de-Port",
@@ -63,12 +8,23 @@
     "distance_km": 25,
     "difficulty": "hard",
     "elevation_gain": 1300,
-    "text": "The challenging first stage crossing the Pyrenees via the Route Napoléon. Begins with a steep climb through beech forests, reaching the Spanish border at the Col de Lepoeder or Alto del Perdón. Descends steeply to Roncesvalles, an important monastery town where the Basque defeated Charlemagne's rearguard in 778."
+    "text": "The challenging first stage crossing the Pyrenees via the Route Napoléon. Begins with a steep climb through beech forests, reaching the Spanish border at the Col de Lepoeder. Descends steeply to Roncesvalles, an important monastery town."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "Roncesvalles → Pamplona",
+    "stage_number": 2,
+    "from": "Roncesvalles",
+    "to": "Pamplona",
+    "distance_km": 45,
+    "difficulty": "medium",
+    "elevation_gain": 400,
+    "text": "A long descent from the Pyrenees through the Navarrese countryside. Passes through Zubiri with its medieval bridge over the Arga River, then Villava, birthplace of cycling champion Miguel Induráin. Enters Pamplona through the ancient city walls, famous for the Running of the Bulls during the San Fermín festival."
   },
   {
     "route": "Camino Francés",
     "stage": "Pamplona → Puente la Reina",
-    "stage_number": 2,
+    "stage_number": 3,
     "from": "Pamplona",
     "to": "Puente la Reina",
     "distance_km": 24,
@@ -78,8 +34,52 @@
   },
   {
     "route": "Camino Francés",
+    "stage": "Puente la Reina → Estella",
+    "stage_number": 4,
+    "from": "Puente la Reina",
+    "to": "Estella",
+    "distance_km": 22,
+    "difficulty": "easy",
+    "elevation_gain": 300,
+    "text": "Follows the Arga and Salado rivers through gentle Navarrese countryside. Passes through Cirauqui, a fortified hilltop village with Roman paving still intact. Crosses vineyards and wheat fields to Estella, the 'Toledo of Navarre,' a beautiful medieval town with Romanesque churches and palaces."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "Estella → Logroño",
+    "stage_number": 5,
+    "from": "Estella",
+    "to": "Logroño",
+    "distance_km": 48,
+    "difficulty": "medium",
+    "elevation_gain": 500,
+    "text": "A long stage passing through the famous Irache wine fountain where pilgrims drink free wine. Enters La Rioja wine country through rolling vineyards. Crosses the Ebro River into Logroño, capital of La Rioja, renowned for its tapas street Calle del Laurel and excellent Rioja wines."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "Logroño → Nájera",
+    "stage_number": 6,
+    "from": "Logroño",
+    "to": "Nájera",
+    "distance_km": 29,
+    "difficulty": "easy",
+    "elevation_gain": 250,
+    "text": "Crosses the heart of La Rioja wine region through vineyards and ochre-coloured villages. Passes Navarrete with its 16th-century church containing a painted retablo. Reaches Nájera on the Najerilla River, a town carved into red sandstone cliffs containing the royal pantheon of the Kings of Navarre."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "Nájera → Burgos",
+    "stage_number": 7,
+    "from": "Nájera",
+    "to": "Burgos",
+    "distance_km": 58,
+    "difficulty": "medium",
+    "elevation_gain": 600,
+    "text": "A multi-day stretch through Santo Domingo de la Calzada, named for the medieval engineer-saint who built bridges and roads for pilgrims. Continues through Belorado and San Juan de Ortega before reaching Burgos, dominated by its magnificent Gothic cathedral, a UNESCO World Heritage Site with the tomb of El Cid."
+  },
+  {
+    "route": "Camino Francés",
     "stage": "Burgos → Hornillos del Camino",
-    "stage_number": 3,
+    "stage_number": 8,
     "from": "Burgos",
     "to": "Hornillos del Camino",
     "distance_km": 21,
@@ -89,47 +89,124 @@
   },
   {
     "route": "Camino Francés",
+    "stage": "Hornillos del Camino → León",
+    "stage_number": 9,
+    "from": "Hornillos del Camino",
+    "to": "León",
+    "distance_km": 95,
+    "difficulty": "medium",
+    "elevation_gain": 600,
+    "text": "The long Meseta crossing through Castile. Passes Castrojeriz on a dramatic hill, crosses the Pisuerga River into Palencia, continues through Frómista with its perfect Romanesque church, Carrión de los Condes, and Sahagún before reaching León, a city of stunning stained glass in its Gothic cathedral known as the House of Light."
+  },
+  {
+    "route": "Camino Francés",
     "stage": "León → Astorga",
-    "stage_number": 4,
+    "stage_number": 10,
     "from": "León",
     "to": "Astorga",
     "distance_km": 32,
     "difficulty": "medium",
     "elevation_gain": 350,
-    "text": "One of the longest stages, initially crossing the urban sprawl of León. Enters the countryside through the Vilar de Mazarife variant or the traditional route via Villadangos. Passes the Cruz de Santo Toribio marking the transition from León province. The final approach to Astorga features views of the Maragatería mountains and the city's Episcopal Palace designed by Gaudí."
+    "text": "Initially crosses the urban sprawl of León. Enters the countryside through the Vilar de Mazarife variant or the traditional route via Villadangos. The final approach to Astorga features views of the Maragatería mountains and the city's Episcopal Palace designed by Gaudí."
   },
   {
     "route": "Camino Francés",
     "stage": "Astorga → Ponferrada",
-    "stage_number": 5,
+    "stage_number": 11,
     "from": "Astorga",
     "to": "Ponferrada",
-    "distance_km": 25,
+    "distance_km": 55,
     "difficulty": "hard",
-    "elevation_gain": 600,
-    "text": "The demanding ascent into the León mountains. Climbs steeply to the Cruz de Ferro, the highest point on the Camino at 1504m, marked by an iron cross where pilgrims place stones carried from home. Continues through pine forests to Ponferrada, dominated by its Templar castle built in the 12th century to protect pilgrims."
+    "elevation_gain": 1200,
+    "text": "The demanding ascent into the León mountains via Foncebadón. Passes the Cruz de Ferro at 1504m where pilgrims place stones from home. Descends steeply through El Acebo and Molinaseca to Ponferrada, dominated by its Templar castle built to protect pilgrims."
   },
   {
     "route": "Camino Francés",
     "stage": "Ponferrada → Villafranca del Bierzo",
-    "stage_number": 6,
+    "stage_number": 12,
     "from": "Ponferrada",
     "to": "Villafranca del Bierzo",
     "distance_km": 25,
     "difficulty": "easy",
     "elevation_gain": 300,
-    "text": "A pleasant descent through the Bierzo valley, a fertile wine-growing region sheltered by mountains. Passes through Cacabelos and vineyards producing Mencía wine. Villafranca, known as the 'Little Santiago,' features the Church of Santiago with its Door of Forgiveness granting holy pardon to pilgrims unable to continue to Santiago."
+    "text": "A pleasant descent through the Bierzo valley, a fertile wine-growing region sheltered by mountains. Passes through Cacabelos and vineyards producing Mencía wine. Villafranca, the 'Little Santiago,' features the Church of Santiago with its Door of Forgiveness for pilgrims unable to continue."
   },
   {
     "route": "Camino Francés",
     "stage": "Villafranca del Bierzo → O Cebreiro",
-    "stage_number": 7,
+    "stage_number": 13,
     "from": "Villafranca del Bierzo",
     "to": "O Cebreiro",
     "distance_km": 28,
     "difficulty": "hard",
     "elevation_gain": 900,
-    "text": "The steep climb into Galicia. Offers a choice between the challenging direct route or the scenic but longer Hospital route. Passes through mountain villages like La Faba and Laguna de Castilla before the final demanding ascent to O Cebreiro, a village of stone pallozas (thatched roundhouses) at 1300m, marking entry into Galicia."
+    "text": "The steep climb into Galicia. Passes through mountain villages like La Faba and Laguna de Castilla before the final demanding ascent to O Cebreiro at 1300m, a village of stone pallozas marking entry into Galicia."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "O Cebreiro → Sarria",
+    "stage_number": 14,
+    "from": "O Cebreiro",
+    "to": "Sarria",
+    "distance_km": 45,
+    "difficulty": "medium",
+    "elevation_gain": 400,
+    "text": "Descends from the mountains through the Galician highlands. Passes Triacastela where pilgrims historically carried limestone to Castañeda. Continues through San Xil or Samos with its enormous 6th-century monastery before reaching Sarria, the last town 100km from Santiago, the minimum distance for a Compostela certificate."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "Sarria → Portomarín",
+    "stage_number": 15,
+    "from": "Sarria",
+    "to": "Portomarín",
+    "distance_km": 22,
+    "difficulty": "easy",
+    "elevation_gain": 300,
+    "text": "A gentle stage through woodland and farmland, crossing the Minho River via the ancient Roman bridge at Portomarín. Good pilgrim infrastructure with albergues in towns like Barbadelo and Ferreiros. Popular starting point for those walking the minimum 100km to Santiago."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "Portomarín → Palas de Rei",
+    "stage_number": 16,
+    "from": "Portomarín",
+    "to": "Palas de Rei",
+    "distance_km": 25,
+    "difficulty": "medium",
+    "elevation_gain": 400,
+    "text": "Climbs steadily through oak forests and rural Galicia. The ascent to Monte San Antonio offers panoramic views. Descends to Gonzar before climbing again through woodland to Palas de Rei, historically a royal resting place."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "Palas de Rei → Arzúa",
+    "stage_number": 17,
+    "from": "Palas de Rei",
+    "to": "Arzúa",
+    "distance_km": 29,
+    "difficulty": "medium",
+    "elevation_gain": 350,
+    "text": "A long stage crossing the province of A Coruña. Passes through the hamlet of Furelos, then Melide where the Camino del Norte joins. The route enters dairy country with green pastures en route to Arzúa, known for its cheese."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "Arzúa → O Pedrouzo",
+    "stage_number": 18,
+    "from": "Arzúa",
+    "to": "O Pedrouzo",
+    "distance_km": 19,
+    "difficulty": "easy",
+    "elevation_gain": 250,
+    "text": "A manageable stage through eucalyptus groves and rolling farmland. The Camino Primitivo joins at Arzúa. Gentle ascents and descents through small villages like Santa Irene, with its chapel and healing fountain."
+  },
+  {
+    "route": "Camino Francés",
+    "stage": "O Pedrouzo → Santiago de Compostela",
+    "stage_number": 19,
+    "from": "O Pedrouzo",
+    "to": "Santiago de Compostela",
+    "distance_km": 20,
+    "difficulty": "easy",
+    "elevation_gain": 200,
+    "text": "The final stage to the cathedral. Passes through Lavacolla where medieval pilgrims washed. Climbs Monte do Gozo for the first sight of Santiago's spires. Descends through the suburbs to reach Praza do Obradoiro and the Cathedral of Saint James."
   },
   {
     "route": "Camino del Norte",
@@ -140,7 +217,7 @@
     "distance_km": 25,
     "difficulty": "hard",
     "elevation_gain": 450,
-    "text": "The first stage along the rugged Basque coast. Climbs steeply from Irún to the Jaizkibel mountain pass with spectacular views of the Bay of Biscay. Descends through Hondarribia, a charming fishing town with a medieval core. Continues along coastal paths before reaching elegant San Sebastián, famous for its La Concha beach and world-renowned pintxos."
+    "text": "The first stage along the rugged Basque coast. Climbs steeply from Irún to the Jaizkibel mountain pass with spectacular views of the Bay of Biscay. Descends through Hondarribia to elegant San Sebastián, famous for its La Concha beach and world-renowned pintxos."
   },
   {
     "route": "Camino del Norte",
@@ -151,7 +228,7 @@
     "distance_km": 22,
     "difficulty": "medium",
     "elevation_gain": 300,
-    "text": "Follows the Basque coastline with alternating climbs and descents. Passes through Orio, a traditional fishing village, and the medieval town of Getaria, birthplace of explorer Juan Sebastián Elcano and fashion designer Cristóbal Balenciaga. Ends in Zarautz, a popular beach resort with one of the longest sandy beaches in the Basque Country."
+    "text": "Follows the Basque coastline. Passes through Orio, a traditional fishing village, and Getaria, birthplace of explorer Juan Sebastián Elcano and fashion designer Cristóbal Balenciaga. Ends in Zarautz, a popular beach resort with one of the longest sandy beaches in the Basque Country."
   },
   {
     "route": "Camino del Norte",
@@ -162,7 +239,7 @@
     "distance_km": 26,
     "difficulty": "medium",
     "elevation_gain": 400,
-    "text": "Continues along the dramatic Basque coast with challenging ups and downs. Passes through Zumaia with its famous Flysch rock formations, and the fishing port of Mutriku. The final approach to Deba features views of the bay and the Gothic Church of Santa María."
+    "text": "Continues along the dramatic Basque coast. Passes through Zumaia with its famous Flysch rock formations, and the fishing port of Mutriku. The final approach to Deba features views of the bay and the Gothic Church of Santa María."
   },
   {
     "route": "Camino del Norte",
@@ -173,7 +250,7 @@
     "distance_km": 24,
     "difficulty": "hard",
     "elevation_gain": 700,
-    "text": "Turns inland through the Basque mountains, leaving the coast behind. A demanding stage with steep climbs through dense beech and oak forests. Passes through small mountain villages before reaching Markina-Xemein, a historic town famous as the birthplace of Basque pelota and traditional stone lifting."
+    "text": "Turns inland through the Basque mountains. A demanding stage with steep climbs through dense beech and oak forests. Reaches Markina-Xemein, a historic town famous as the birthplace of Basque pelota."
   },
   {
     "route": "Camino del Norte",
@@ -184,7 +261,7 @@
     "distance_km": 25,
     "difficulty": "medium",
     "elevation_gain": 350,
-    "text": "Crosses the rolling hills of Biscay through peaceful countryside. Passes the hermitage of San Miguel de Arretxinaga with its unique stone formations. Descends to Gernika, the spiritual heart of the Basque Country, home to the sacred oak tree where Basque assemblies gathered for centuries, and site of the tragic 1937 bombing memorialized by Picasso."
+    "text": "Crosses the rolling hills of Biscay through peaceful countryside. Descends to Gernika, the spiritual heart of the Basque Country, home to the sacred oak tree and site of the 1937 bombing memorialized by Picasso."
   },
   {
     "route": "Camino del Norte",
@@ -195,18 +272,51 @@
     "distance_km": 32,
     "difficulty": "medium",
     "elevation_gain": 400,
-    "text": "A long stage through industrial and natural landscapes. Passes through Portugalete with its unique Vizcaya Transporter Bridge, a UNESCO World Heritage site. Enters Bilbao, the vibrant capital of Biscay, home to the iconic Guggenheim Museum and a revitalized riverfront with world-class architecture."
+    "text": "A long stage through industrial and natural landscapes. Passes through Portugalete with its Vizcaya Transporter Bridge, a UNESCO World Heritage site. Enters Bilbao, home to the iconic Guggenheim Museum and a revitalized riverfront."
   },
   {
     "route": "Camino del Norte",
-    "stage": "Bilbao → Portugalete",
+    "stage": "Bilbao → Castro Urdiales",
     "stage_number": 7,
     "from": "Bilbao",
-    "to": "Portugalete",
-    "distance_km": 15,
+    "to": "Castro Urdiales",
+    "distance_km": 30,
+    "difficulty": "medium",
+    "elevation_gain": 500,
+    "text": "Exits Bilbao through the industrial Basque coastline, gradually transitioning into Cantabria. Passes through Zierbena with its port views and Pobeña beach. Climbs through eucalyptus forests to Castro Urdiales, a picturesque medieval fishing town dominated by the Gothic church of Santa María perched dramatically above the sea."
+  },
+  {
+    "route": "Camino del Norte",
+    "stage": "Castro Urdiales → Laredo",
+    "stage_number": 8,
+    "from": "Castro Urdiales",
+    "to": "Laredo",
+    "distance_km": 28,
+    "difficulty": "medium",
+    "elevation_gain": 450,
+    "text": "Enters Cantabria with views of the Cantabrian Sea. Passes through Islares and the spectacular beach at La Arena. Climbs through wooded hills before descending to Laredo, a resort town with one of the longest beaches on the northern coast and a well-preserved medieval quarter."
+  },
+  {
+    "route": "Camino del Norte",
+    "stage": "Laredo → Santander",
+    "stage_number": 9,
+    "from": "Laredo",
+    "to": "Santander",
+    "distance_km": 31,
+    "difficulty": "medium",
+    "elevation_gain": 350,
+    "text": "Crosses the Cantabrian coast, taking a ferry across the Treto estuary to Santoña. Continues through Noja and Galizano with their sandy beaches and fishing villages. Arrives in Santander, the elegant capital of Cantabria, with its belle époque architecture, beaches, and the Magdalena Palace."
+  },
+  {
+    "route": "Camino del Norte",
+    "stage": "Santander → Santillana del Mar",
+    "stage_number": 10,
+    "from": "Santander",
+    "to": "Santillana del Mar",
+    "distance_km": 30,
     "difficulty": "easy",
-    "elevation_gain": 100,
-    "text": "A short stage through Bilbao's urban area and riverside paths. Passes the estuary with views of the city's industrial heritage. Ends at Portugalete, famous for its historic hanging bridge, the oldest transporter bridge still in operation."
+    "elevation_gain": 300,
+    "text": "Follows the Cantabrian coast through meadows and small fishing villages. Passes through Mogro and Suances on the Saja River estuary. Reaches Santillana del Mar, considered one of Spain's most beautiful towns, a perfectly preserved medieval village near the UNESCO-listed Altamira cave with its 15,000-year-old paintings."
   },
   {
     "route": "Camino Portugués",
@@ -217,7 +327,7 @@
     "distance_km": 20,
     "difficulty": "easy",
     "elevation_gain": 200,
-    "text": "Begins in UNESCO-listed Porto, crossing the iconic Dom Luís I Bridge over the Douro River. Follows urban paths through the city's outskirts, passing through Maia, an important industrial center. The route is mostly flat with good surfaces, passing through suburban areas with modern albergue facilities."
+    "text": "Begins in UNESCO-listed Porto, crossing the iconic Dom Luís I Bridge over the Douro River. Follows urban paths through the city's outskirts, passing through Maia. The route is mostly flat with good surfaces and modern albergue facilities."
   },
   {
     "route": "Camino Portugués",
@@ -239,7 +349,7 @@
     "distance_km": 24,
     "difficulty": "easy",
     "elevation_gain": 300,
-    "text": "A gentle stage through the Minho region, famous for its green landscapes and distinctive culture. Passes through the village of São Pedro de Rates before reaching Barcelos, a historic market town on the Cavado River. Famous for the legend of the Rooster of Barcelos and its weekly Thursday market, one of the largest in Portugal."
+    "text": "A gentle stage through the Minho region. Passes through São Pedro de Rates before reaching Barcelos, a historic market town on the Cavado River, famous for the legend of the Rooster of Barcelos and its weekly Thursday market."
   },
   {
     "route": "Camino Portugués",
@@ -250,7 +360,7 @@
     "distance_km": 35,
     "difficulty": "medium",
     "elevation_gain": 500,
-    "text": "A longer stage with gradual climbs through vineyards and cornfields. Passes through the Serra de Rates with gentle ascents. Descends to Ponte de Lima, one of Portugal's oldest towns, set on the beautiful Lima River with its medieval bridge and Romanesque towers. The town hosts a famous biweekly market."
+    "text": "A longer stage with gradual climbs through vineyards and cornfields. Descends to Ponte de Lima, one of Portugal's oldest towns, set on the beautiful Lima River with its medieval bridge and Romanesque towers."
   },
   {
     "route": "Camino Portugués",
@@ -261,7 +371,7 @@
     "distance_km": 32,
     "difficulty": "hard",
     "elevation_gain": 800,
-    "text": "A demanding stage with the challenging Labruja mountain crossing. Steep climb through forested hills offering views into Galicia. Descends to the fortress town of Valença on the Minho River, with its impressive 17th-century star-shaped fortifications and views across to Spanish Tui."
+    "text": "A demanding stage with the challenging Labruja mountain crossing. Steep climb through forested hills. Descends to the fortress town of Valença on the Minho River with its impressive 17th-century star-shaped fortifications."
   },
   {
     "route": "Camino Portugués",
@@ -272,7 +382,7 @@
     "distance_km": 5,
     "difficulty": "easy",
     "elevation_gain": 50,
-    "text": "A short stage crossing the International Bridge over the Minho River into Spain. Arrives in Tui, a historic Galician town dominated by its 12th-century fortress cathedral. The old town features narrow medieval streets and views back to Portugal. Marks the transition from Portugal to Galicia."
+    "text": "A short stage crossing the International Bridge over the Minho River into Spain. Arrives in Tui, a historic Galician town dominated by its 12th-century fortress cathedral. Marks the transition from Portugal to Galicia."
   },
   {
     "route": "Camino Portugués",
@@ -283,7 +393,7 @@
     "distance_km": 19,
     "difficulty": "medium",
     "elevation_gain": 400,
-    "text": "Enters Galicia through rolling countryside. Passes through the village of O Porriño with its granite stonework tradition. Climbs through woodland to the Alto da Gafa with views of the Ría de Vigo. Descends to Redondela, where the coastal and inland routes of the Portuguese Way converge, situated on the picturesque Ría de Vigo."
+    "text": "Enters Galicia through rolling countryside. Passes through O Porriño with its granite stonework tradition. Climbs through woodland to the Alto da Gafa with views of the Ría de Vigo. Descends to Redondela, where the coastal and inland routes of the Portuguese Way converge."
   },
   {
     "route": "Camino Portugués",
@@ -294,7 +404,7 @@
     "distance_km": 18,
     "difficulty": "easy",
     "elevation_gain": 300,
-    "text": "A shorter stage through pleasant rural Galicia. Passes through Arcade, famous for its oysters harvested from the Ría de Arousa. Crosses the medieval Ponte Sampaio bridge where Napoleon's army was defeated in 1809. Reaches Pontevedra, an elegant city with one of Spain's finest historic centers, numerous squares, and the famous Pilgrim Virgin sanctuary."
+    "text": "A shorter stage through pleasant rural Galicia. Passes through Arcade, famous for its oysters. Crosses the medieval Ponte Sampaio bridge where Napoleon's army was defeated in 1809. Reaches Pontevedra, an elegant city with one of Spain's finest historic centers."
   },
   {
     "route": "Camino Portugués",
@@ -305,7 +415,7 @@
     "distance_km": 22,
     "difficulty": "easy",
     "elevation_gain": 200,
-    "text": "Crosses the countryside of the province of Pontevedra. Passes through eucalyptus forests and traditional villages. Reaches Caldas de Reis, a spa town known since Roman times for its thermal waters. The town sits at the confluence of the Umia and Bermaña rivers, offering pilgrims the chance to soak weary feet in hot springs."
+    "text": "Crosses the countryside of Pontevedra province. Passes through eucalyptus forests and traditional villages. Reaches Caldas de Reis, a spa town known since Roman times for its thermal waters where pilgrims can soak weary feet."
   },
   {
     "route": "Camino Portugués",
@@ -316,7 +426,7 @@
     "distance_km": 18,
     "difficulty": "easy",
     "elevation_gain": 250,
-    "text": "A gentle stage through the heart of Galicia's agricultural region. Passes through the village of Santa María de Carracedo with its baroque church. Arrives in Padrón, legendary landing place of Saint James's boat, and famous for its green peppers (pimientos de Padrón). The town sits on the Sar River and marks the final approach to Santiago."
+    "text": "A gentle stage through Galicia's agricultural region. Arrives in Padrón, legendary landing place of Saint James's boat and famous for its green peppers. Marks the final approach to Santiago."
   },
   {
     "route": "Camino Portugués",
@@ -327,6 +437,6 @@
     "distance_km": 24,
     "difficulty": "medium",
     "elevation_gain": 400,
-    "text": "The final stage into Santiago. Climbs through oak forests to the Chapel of Santiaguiño do Monte with panoramic views. Descends through the suburbs of Santiago, entering the historic center through the Porta do Camiño. Ends at the Cathedral of Saint James in Praza do Obradoiro, the culmination of the Portuguese pilgrimage route."
+    "text": "The final stage into Santiago. Climbs through oak forests to the Chapel of Santiaguiño do Monte with panoramic views. Descends through the suburbs of Santiago, entering the historic center through the Porta do Camiño to the Cathedral of Saint James."
   }
 ]

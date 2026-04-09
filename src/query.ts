@@ -64,8 +64,17 @@ function loadAllStages(): Stage[] {
   return JSON.parse(raw);
 }
 
+function normalizeCity(name: string): string {
+  return name.toLowerCase().replace(/[^a-záéíóúñü]/gi, " ").trim().split(/\s+/)[0];
+}
+
 function findStage(stages: Stage[], from: string, to: string): Stage | undefined {
-  return stages.find(s => s.from === from && s.to === to);
+  const exact = stages.find(s => s.from === from && s.to === to);
+  if (exact) return exact;
+  return stages.find(s =>
+    normalizeCity(s.from) === normalizeCity(from) &&
+    normalizeCity(s.to) === normalizeCity(to)
+  );
 }
 
 interface ValidationResult {
@@ -153,6 +162,10 @@ export async function askCamino(question: string, maxRetries: number = 3): Promi
   };
 
   const allStages = loadAllStages();
+  const stageList = allStages
+    .sort((a, b) => a.route.localeCompare(b.route) || a.stage_number - b.stage_number)
+    .map(s => `  ${s.route} #${s.stage_number}: ${s.from} → ${s.to} (${s.distance_km}km, ${s.difficulty})`)
+    .join("\n");
   
   let lastResponse = "";
   let lastErrors: string[] = [];
@@ -175,15 +188,15 @@ export async function askCamino(question: string, maxRetries: number = 3): Promi
     const prompt = `
 You are a Camino de Santiago planner.
 
-RELEVANT STAGES FOR THIS QUERY:
-${stageHints}
+ALL AVAILABLE STAGES (use ONLY these, exact names):
+${stageList}
 
 STRICT RULES:
-- Use ONLY exact stage names from the provided data
+- Use ONLY stages listed above - do NOT invent stages
 - Stages MUST be consecutive (end of day N = start of day N+1)
-- You MAY combine last 2 stages into final day if needed (e.g., Arzúa → Santiago)
+- Plan exactly ${days} days - no more, no less
+- If a route doesn't have enough stages for ${days} days, pick a different route that does
 - Respect max distance per day (${constraints.maxKm}km)
-- If constraints are bad, say so
 
 Example for beginner, 4 days from Sarria:
 Route: Camino Francés
