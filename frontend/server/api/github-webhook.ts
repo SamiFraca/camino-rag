@@ -1,4 +1,3 @@
-// /api/github-webhook.ts
 export default async function handler(req, res) {
   const event = req.body;
 
@@ -8,12 +7,10 @@ export default async function handler(req, res) {
 
   const pr = event.pull_request;
 
-  // Fetch diff (important!)
   const diff = await fetch(pr.diff_url).then(r => r.text());
 
-  // Call Skrun
   const response = await fetch(
-    "https://your-skrun-api.com/api/agents/dev/pr-checker/run",
+    "https://slow-mice-sneeze.loca.lt/run",
     {
       method: "POST",
       headers: {
@@ -31,7 +28,6 @@ export default async function handler(req, res) {
 
   const result = await response.json();
 
-  // Post comment back to GitHub
   await fetch(pr.comments_url, {
     method: "POST",
     headers: {
