@@ -1,0 +1,26 @@
+name: test/pr-checker
+version: 1.0.0
+model:
+  provider: anthropic
+  name: claude-sonnet-4-20250514
+tools: []
+mcp_servers: []
+inputs:
+  - name: query
+    type: string
+    required: true
+outputs:
+  - name: result
+    type: string
+permissions:
+  network: []
+  filesystem: read-only
+  secrets: []
+runtime:
+  timeout: 300s
+  sandbox: strict
+context_mode: skill
+state:
+  type: kv
+  ttl: 30d
+tests: []
